@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PoKemon V2</title>
+    <script src="https://kit.fontawesome.com/b97639225c.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="overlay" style="display: none;"></div>
+    <header class="header">
+        <img src="images/pokemon.png" alt="pokemon logo" class="pokemon-logo">
+        <form class="search-bar">
+            <input type="text" id="textvalue" placeholder="Ex: Pikachu ou 25" class="search-pokemon">
+            <button id="submit" type="submit"></button>
+            <p id="not-found"></p>
+        </form>
+    </header>
+    <div class="types-container">
+        <img class="types" src="images/plante.png" alt="" data-type="grass">
+        <img class="types" src="images/eau.png" alt="" data-type="water">
+        <img class="types" src="images/feu.png" alt="" data-type="fire">
+        <img class="types" src="images/electrik.png" alt="" data-type="electric">
+        <img class="types" src="images/sol.png" alt="" data-type="ground">
+        <img class="types" src="images/vol.png" alt="" data-type="flying">
+        <img class="types" src="images/insecte.png" alt="" data-type="bug">
+        <img class="types" src="images/normal.png" alt="" data-type="normal">
+        <img class="types" src="images/poison.png" alt="" data-type="poison">
+        <img class="types" src="images/combat.png" alt="" data-type="fighting">
+        <img class="types" src="images/fee.png" alt="" data-type="fairy">
+        <img class="types" src="images/acier.png" alt="" data-type="steel">
+        <img class="types" src="images/psy.png" alt="" data-type="psychic">
+        <img class="types" src="images/roche.png" alt="" data-type="rock">
+        <img class="types" src="images/spectre.png" alt="" data-type="ghost">
+        <img class="types" src="images/tenebres.png" alt="" data-type="dark">
+        <img class="types" src="images/dragon.png" alt="" data-type="dragon">
+        <img class="types" src="images/glace.png" alt="" data-type="ice">
+    </div>
+    <div class="wrapper"></div>
+    <div class="modal"></div>
+</body>
+</html>
